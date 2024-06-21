@@ -1,5 +1,37 @@
+Introduction :
+
 JavaScript was initially created to “make web pages alive”.
 The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads.
 Scripts are provided and executed as plain text. They don’t need special preparation or compilation to run.
-In this aspect, JavaScript is very different from another language called Java.
+In this aspect, JavaScript is very different from another language called Java. All the errors in the javascript, we can see them on the console. 
+
+Javascripts virtual machine (acts like a operting system )
+
+ Javascripts are not only execute in the browser, but also for the The Virtual machine are as follows:
+1. V8- Opera, Edge,chorme 
+2. spidermonkey- Firefox
+3. Chakra for IE and etc.
+
+Modern Javascript:
+
+Javascripts program can be inserted in the HTML document anywhere in between the <Script> tag </scripts>
+<script type=..> this type of tag was used before in the HTML4 Which required to scripts to have a type 
+<script language>this tag used to explain the language of the javascript, but nowadays javascript has its own 
+default lanaguage.
+
+External Scripts :
+
+<script src="alert.js" or "./alert.css">
+</script>
+This the example of external script, when we have alot of javascript code, then we can create a new file to put some code in that file and after that we use the external script to attached that code. 
+
+Semicolon :
+
+We need to use the semicolon at the end of the alert function for an example alert ("hello world");
+but for some cases when we started the new line we don't need to put the semicolon for an example
+alert("2+
+3+
+1");
+ 
+ The modern use of "Use strict"
 
