@@ -33,5 +33,20 @@ alert("2+
 3+
 1");
  
- The modern use of "Use strict"
+ The modern mode "Use strict"
+ The directive" use strict" looks like a string.when its located at the top of the string the whole scripts looks like modern. 
+ For an example:
+ <Script>
+ " use strict"
+ Let X= 5;
+ Console.log(x);
+ </strict>
+ In this example, using the word let before the x is compulsory, its one kind of the strict rule. we can also use the document.write(x) instead of using the console.log(x) function. 
 
+ Comments:
+ comments can be put into any place of the scripts. they don't affect its execution because the engine simplpy ignores them. 
+ One line character start with two slash cgaracter.//
+ multiline comments start with a forward slash and an asterisk* 
+ /*
+ */
+ 
