@@ -12,8 +12,19 @@
         but if the binary + is applied to strings, it merges (concatenates )them.
         */
        let s ="my"+"name";
-       alert(s);
-    
+       alert(s);//mystring
+       // note that if any of the operand is a string or the second one.
+       // complex example:-
+       alert(2+2+'1');//41
+       /* here, operands work one after another. the first+ sums two numvbers , so it returns 4, then the next +
+       add teh string 1, so  its like 4 +'1'=41*/
+       alert('1'+2+2);
+       /* here, the first operand is a string, the complier treats the other two numbers as strings too. the
+       2 gets concatened to '1 ', so its like '1'+ 2="12" and "12" + 2= "122"/
+       here the demo for substraction and divison :
+       */
+      alert(6-'2');// 4 converts '2' to a number
+      alert('6'/'2');//3. converts both operands to number.
 
     </script>
 </body>
