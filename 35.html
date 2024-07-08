@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* Chaining assignments:*/
+        
+        let a,b,c;
+        a=b=c=2+2;
+        alert(a);//4
+        alert(b);//4
+        alert(c);//4
+        //cahined assignment evaulate from right to left. first, the rightmost expression 2+2is evaluated and then assignemmt 
+        // to the variables on the left c,b, and a. At the end, all the varibales share a single value.
+        /* Modify- in- palce 
+        we often need to apply an opertaor to a variable and store the new result in that same variable.\
+        for example:*/
+        let n= 2;//2
+        n=n+5;//7
+        n=n*2;//14
+        alert(n);//14
+// the notation can be shortened using the opertaors+= and *=:
+let p= 2;
+p+=5;
+p*=2;
+alert(p);
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
