@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* Comparison of different types:
+        when comapring values of different types, Javascript converts the values to numbers.
+        */
+       alert('2'>1);// true , string '2' becomes a number 2.
+       alert("01"==1);// true, string "01" becomes a number 1.
+       // for boolean values, true becomes 1 and false becomes 0.
+       alert(true==1);//true
+       alert(false==0);//true
+       /*
+       It is possible that at the same time:
+       two values are equal.
+       one of them is true as a boolean and the other one is false as a boolean.
+       for instance*/
+       let a=0;
+       alert(Boolean(a));
+
+       let b ="0";// if there exit any value inside string, it is always considered true(non empty string) and empty string is always false, 
+       // we have passed a space charater , it makes a non-empty string (true).
+       alert(Boolean(b));
+       alert(a==b);
+    </script>
+</body>
+</html>

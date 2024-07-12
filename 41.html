@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* Strict Equality:
+        A regular equality check == has aproblem. it cannot differentiate 0and false :
+        */
+       alert(0==false);// true 
+       alert(""==false);//true empty string becaomex0 that why0==0 is true 
+       /* This happens because operands of different types are converted to numbers by thr equality operator ==. An empty string, just like false , becomes a zero.
+*/
+//Strict operator : a strict operator ==== checks the equality without converted them into any type of data like numbers.
+alert(0===false);//false
+alert(0!==false);//true
+    </script>
+</body>
+</html>
