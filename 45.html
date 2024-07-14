@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       /
+       /* comparison with null and undefined 
+       there's a non-intutitive behaviour when null or undefined are compared to other values.
+       for a strict equality check===
+       these values are different, because each of them is a different type.
+       */
+      alert(null===undefined);// 
+      // for a non-strict check==
+      //there's a special rule. these two are a"sweet couple".they equal each other(in the sense of ==),but not any other value.
+      alert(null==undefined);//true
+      // now let's see some funny things that happen when we apply these rules. and, what's more important, how to not fall into a trap with them.
+      // strange result:null vs 0
+      alert(null>0);//false
+      alert(null==0);//false
+      alert(null>=0); //true 
+      /* mathematically, that's strange. the last result states that"null" is greater than or equal to zero
+      so in one of the comparisons above it must be true, but they are both false.
+       The reason is that an equlity check == and comparisons ><>=<= work differently.
+       comparisons convert null to a number, treating it as 0. that's why(3)null>=0 is true and null>0 is false.
+    </script>
+</body>
+</html>
