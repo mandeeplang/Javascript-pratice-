@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //!NOT(Exclamation sign )
+        //Syntax: result =!value;
+        /* The operator accepts a single argument and does the following:
+        1. Converts the operand to boolean type: True/false
+        2. returns the inverse value.
+        For instance>*/
+        alert(!true);//false
+        alert(!0);//true
+        // A double NOT!! is sometimes used to converting a value to boolean type.
+        alert(!!'non-empty string');
+        alert(!!null);
+        // This is the first NOT converts the value to boolean and returs the inverse , and the second NOT inverses it again. There's a little more verbose way to do the same thing-a built in Boolean function:
+        alert(Boolean("non empty string "));//false  
+        alert(boolean(null));//false
+
+
+    </script>
+</body>
+</html>

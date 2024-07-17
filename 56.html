@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* &&(AND)it is represent with two ampersands{multiplication type to lesrn }
+        result=a&&b;
+        In classical programming, AND returns true if both operands are truthy and false otherwise 
+        */
+       alert(true&&true);//true
+       alert(false&&true);//false
+       alert(true&&false);//false 
+       alert(false&&false);//false
+       let hour =12;
+       let minute=30;
+       if(hour==12&&minute==30){
+        alert('The time is 12.30');
+       }
+       /* AND && finds the first falsy value
+       result=value1 && value2 && value 3;
+       The AND && operator does the following:
+       evaluates operands from left to right.
+       for each operand, converts it to a boolean. If the reuslt is false, stops and returns the original value of that operand.
+       if all the operand have been evaluated(all were truthy), returnd the last operand.
+       */
+      alert(1&&0);//0
+      alert(1&&5);//5
+      alert(null&&5);//null
+      alert(0&&'no matter what');//0
+      alert(1 && 2 && null && 3 );//null
+      alert(1 && 2 && 3);//3 
+           </script>
+</body>
+</html>

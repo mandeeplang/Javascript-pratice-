@@ -9,24 +9,20 @@
 
 <body>
     <script>
-        let age=ptompt('what is your age','');
-        
-        if (age < 3) {
-            'Hi, baby!';
-
-        }
-        else if (age < 18) {
-            'greetings!';
-
-        }
-        else if (age < 100) {
-             'what an unusal age';
-        }
-        else {
-             'hello';
-        }
-        alert(age);
-    </script>
+        /* Logical Operators:
+        There are four logical operator in javascript ||(OR),&&(AND),!(NOT),??(Nullish Coalescing).
+        There result can be any of type.
+        ||(OR);*/
+        alert(true||true);//true
+        alert(false||true);//true
+        alert(true||false);//true
+        alert(false||false);//false
+        // as you can see that the result is always true except the case when both operands are false. if an operand is not a boolean, it;s converted to a boolean for the evaluation.
+        if(1||0)
+{
+    alert('truthy !');// if an operand is not a boolean , it's converted to a boolean for the evaluation.
+    //for instance, the number 1 is tretaed as true and the number 0 as false.
+}    </script>
 </body>
 
 </html>
