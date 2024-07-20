@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* NULLISH COALESCING OPERATOR "??"
+        The nullish coalescing operator is written AS TWO question marks??
+        As it treat null and undefined similarly, we'll use a special term here, in this article. for brevity, we'll say that a value is defined when it's neither null or undefined.
+        The result of a??b is:
+        for Instance:*/
+        let a =12,b,c;
+        c=a??b;
+       // document.write(a,);// In this command the result will be 12 , because if a is defined , then it will print a and if a is not defined then it will print b.
+        // also if both the variables a and b are not defined then it will print undefined as the result.
+        // if both the  values are defined then it will print the a as a result.
+        let p=null;
+        let s=11;
+        let x=13;
+       // document.write(p??s??x);// here it will again print the a value as a reuslt.
+        document.write(p??s??x);// In this when the first value is null then, it will print the second value which is 11.
+        // we can also write as result=(a! == null && a! == undefined)? a:b;
+    </script>
+</body>
+</html>
