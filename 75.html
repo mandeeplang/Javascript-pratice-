@@ -7,9 +7,15 @@
 </head>
 <body>
     <script>
-        let i=0;
-        while(i++<5)alert(i);
-        
+        //outer variables :- functions can acces outer variables as well 
+        let userName = 'John';
+
+function showMessage() {
+  let message = 'Hello, ' + userName;
+  alert(message);
+}
+
+showMessage(); // Hello, John
     </script>
 </body>
 </html>
