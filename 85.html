@@ -7,14 +7,10 @@
 </head>
 <body>
     <script>
-        // Function's parameters:-
-        function showmessage(form,test){
-            alert(form+':'+test);
-
+        function donothing (){
+            return;
         }
-        showmessage('ann','hello!');
-        showmessage('ann','whats up?');
-        
+        alert(donothing()==undefined);// an empty return is also same as return undefined.
     </script>
 </body>
 </html>

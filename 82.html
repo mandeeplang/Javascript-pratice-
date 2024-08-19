@@ -7,14 +7,13 @@
 </head>
 <body>
     <script>
-        // Function's parameters:-
-        function showmessage(form,test){
-            alert(form+':'+test);
-
+        fucntion showCount(count){
+            //if count is undefined or null, show 'unknown'
+            alert(count??'unknown');
         }
-        showmessage('ann','hello!');
-        showmessage('ann','whats up?');
-        
+        showCount(0);//0
+        showCount(null);//unknown
+        showCount();//unknown
     </script>
 </body>
 </html>
