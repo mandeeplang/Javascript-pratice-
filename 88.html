@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //objects 
+    let user ={// user is an object here 
+        name:'mandeep',//name is the key and the mandeep is its value
+        age:22//same as above age is the key and it has a value which is 22.
+    }
+    alert(user.name);
+    alert(user.age);
+    // add a key and value in the object
+    user.isAdmin=true;// as we have added a new key with its value so we have to put = instead of applying : between the key and its value .
+
+    alert(user.isAdmin);// 
+    // to remove a property , we can use the delete operator ;
+    delete user.age;
+    alert(user.age);// this will you us undefined as the result because we have already deleted the age from the object , and when its trying to find that in the object which is already being deleted, it show undefiend.
+    
+
+    </script>
+</body>
+</html>
